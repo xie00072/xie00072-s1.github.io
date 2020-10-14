@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header, footer {
+    background-color: cornflowerblue;
+}
+.site-title {
+    color: darkblue;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+article ul {
+    list-style: square;
+}
+article ul li:nth-child(2n+1) {
+    background-color: lightcoral;
+}
+nav ul {
+    list-style: none;
+    
+}
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+    background: rgb(228, 145, 49);
+    text-decoration: none;
+    border-style: dotted;
+}
+nav ul a:hover {    
+    background:lightseagreen;
+    border-style: dotted;
+    }
+nav ul a:active {
+    color: rgb(36, 133, 179);
+}
