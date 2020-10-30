@@ -10,6 +10,7 @@ header, footer {
 }
 #my-image {
     box-shadow: 0 0 2px 1px black;
+    size: 500px 300px;
 }
 article ul {
     list-style: square;

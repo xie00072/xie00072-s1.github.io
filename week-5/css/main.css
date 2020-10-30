@@ -114,3 +114,22 @@ table td:nth-child(n){
 table td:nth-child(2n+1){
     background-color: rgba(0,0,0,0.2);
 }
+
+/* Cascade */
+footer {
+    background-color: aqua;
+}
+
+/* specificity: 0001 */
+footer {
+    background-color: red;
+}
+/* specificity: 0010 */
+.site-footer {
+    background-color: coral;
+}
+/* specificity: 0011 */
+footer.site-footer {
+    background-color: teal;
+}
+

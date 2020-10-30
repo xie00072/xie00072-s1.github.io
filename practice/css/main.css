@@ -1,0 +1,8 @@
+h1 {
+    font-weight: normal;
+    font-color: red;
+    background-color: darkgreen;
+}
+p{
+    text-transform: uppercase;
+}
