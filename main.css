@@ -1,0 +1,195 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* set border-box */
+html {
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* set body properties */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    font-weight: 500;
+}
+
+.container1 {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgb(214, 243, 242);
+    position: relative;
+    height: auto;
+}
+/* set header and background image */
+
+h1 {
+    position: absolute;
+    /*top: 35%;*/
+    margin: 150px auto;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container2 {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+/* set navigation */
+nav {
+    position: relative;
+    margin-top: 20px;
+}
+
+nav ul{
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 32%;
+    border-right: 1px solid black;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+nav ul a {
+    display: block;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+
+h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.3em;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 30%;
+    margin: 0.3em;
+    float: left;
+}
+p {
+    font-size: 0.5em;
+    font-weight: 550;
+    line-height: 1.5em;
+    padding: 0.3em;
+}
+
+h3 {
+    padding: 0.8em 0.3em 0.2em;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0.3em 0.3em 0.3em 2em;
+    font-size: 0.5rem;
+    font-weight: 550;
+    line-height: 1.2em;
+}
+form{
+    margin: 0.5em 0.2em 3em 0.3em;
+    border: 0.1rem solid rgb(26, 27, 27);
+    padding: 1em 0.5em;
+    font-weight: 550;
+}
+.form-group {
+    padding: 0.3em;
+    font-size: 0.6rem;
+    
+}
+.form-control {
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+    font-size: 0.6rem;
+}
+.input-textarea {
+    width: 100%;
+    height: 3rem;
+    font-size: 0.8rem;
+}
+.question {
+    font-size: 0.6rem;
+}
+#submit {
+    font-size: 0.6rem;
+    height: 2rem;
+    margin: 0.5em;
+
+}
+footer{
+    font-size: 0.5rem;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}

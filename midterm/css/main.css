@@ -1,0 +1,221 @@
+/******************** CSS RESET **********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/***HTML5 display-role reset for older browsers ***/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/******************** CSS RESET **********************/
+
+
+/******************** MY CODE *******************/
+/* setting border-box */
+html {
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* styling body properties */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    font-weight: 500;
+}
+/* creating a container1 to contain header, main and footer */
+.container1 {
+    margin: 0 auto;
+    max-width: 95%;
+    background-color: rgb(214, 243, 242);
+    position: relative;
+    
+}
+/** styling container2 which includes h1 and background image **/
+/* styling h1 */
+h1 {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+/* styling the background image */
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/* styling container2 */
+.container2 {
+    position: relative;
+    height: 30%;
+    overflow: hidden;
+}
+/* styling navigation bar*/
+nav ul li {
+    display: inline-block;
+    width: 32%;
+    height: 3em;
+    border-right: 1px solid black;
+}
+/* deleting the last cutting line */
+nav ul li:last-child {
+    border: none;
+}
+/* styling hrefs in the unordered list */
+nav ul a,
+nav ul a:link,
+nav ul a:visited,
+nav ul a:hover,
+nav ul a:focus{
+    color: black;
+    display: block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 0.6em;
+    text-align: center;
+}
+/** styling article **/
+/* styling h2 */
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.8em 0.3em 0.2em;
+}
+/* added according to float property */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* styling the image */
+img {
+    width: 25%;
+    margin: 0.3em 0.6em 0.8em 0.3em;
+    float: left;
+}
+/* styling the paragraph */
+p {
+    font-size: 0.6em;
+    font-weight: 550;
+    line-height: 1.5em;
+    padding: 0.3em;
+}
+/** styling section **/
+/* styling h3 */
+h3 {
+    padding: 0.8em 0.3em 0.2em;
+    font-size: 1rem;
+    font-weight: 550;
+}
+/* styling the unordered list */
+ul {
+    list-style-type: disc;
+    padding: 0.3em 0.3em 0.3em 2em;
+    font-size: 0.6rem;
+    font-weight: 550;
+    line-height: 1.2em;
+}
+/** styling form **/
+form{
+    margin: 0.2em 0.2em 2.6em 0.3em;
+    border: 0.1rem solid rgb(26, 27, 27);
+    padding: 1em 0.5em 0.5em;
+    font-weight: 550;
+}
+/* styling label */
+.form-group {
+    padding: 0.3em;
+    font-size: 0.6rem;
+    
+}
+/* styling input */
+.form-control {
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+    font-size: 0.6rem;
+}
+/* styling textarea */
+.input-textarea {
+    width: 100%;
+    height: 3rem;
+    font-size: 0.8rem;
+}
+/* styling the "would you like..." question */
+.question {
+    font-size: 0.6rem;
+    padding: 0.3em;
+}
+/* styling send button */
+#submit {
+    background-color:  rgb(214, 243, 242);
+    font-size: 0.4rem;
+    height: 1.3rem;
+    margin: 0.5em;
+}
+/* styling footer */
+footer{
+    font-size: 0.7rem;
+    position: absolute;
+    right: 2%;
+    bottom: 1.6%;
+}
+/* adding back to top button */
+.backtotop a,
+.backtotop a:link,
+.backtotop a:visited,
+.backtotop a:hover,
+.backtotop a:active {
+    border: 0.2em dotted gray;
+    padding: 0.5em;
+    font-size: 0.8em;
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    right: 5%;
+    bottom: 3%;
+}
