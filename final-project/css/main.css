@@ -182,12 +182,11 @@ h3,
 h4,
 h5 {
     font-weight: bold;
-    /* top left-right bottom */
     margin: 1em 0 0.5em;
 }
 
 h1 {
-    font-size: 5.063rem;
+    font-size: 4.768rem;
 }
 
 h2 {
@@ -280,7 +279,7 @@ ul li:first-child {
 
 .location {
     position: absolute;
-    top: 5%;
+    top: 2%;
     color: white;
     padding: 1em;
     margin: 2em 0;
@@ -316,14 +315,14 @@ ul li:first-child {
 }
 
 .para1 p {
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 .about h2 {
     margin: 0;
 }
 
-/* ------------------- Our Services ------------------------ */
+/* ----------- Our Services ----------- */
 
 .services h2 {
     margin: 0;
@@ -343,7 +342,7 @@ ul li:first-child {
     padding: 0.5em;
 }
 
-/* ------------ Digital Transformation ------------ */
+/* --------- Digital Transformation --------- */
 
 
 .block1 {
@@ -360,7 +359,7 @@ ul li:first-child {
 }
 
 
-/* -------------- Marketing -------------- */
+/* ------------- Marketing ------------- */
 
 .block2 {
     margin: 1em;
@@ -479,7 +478,7 @@ ul li:first-child {
 }
 
 /* -------------- Contact Us -------------- */
-/* -------------- Send us a message -------------- */
+/* ---------- Send us a message --------- */
 .container5 {
     padding: 0 1em;
 }
@@ -522,7 +521,7 @@ ul li:first-child {
     background-color: #222;
 }
 
-/* -------------- Hours of operation -------------- */
+/* ---------- Hours of operation ---------- */
 table {
     width: 100%;
    
@@ -545,7 +544,7 @@ table, th, td {
 }    
 
 
-/* -------------- Location -------------- */
+/* ------------- Location ------------ */
 .iframe {
     width: 100%;
 }
@@ -593,12 +592,12 @@ table, th, td {
         flex: 2;
     }
 
-    /* -------------- Welcome page -------------- */
+    /* ----------- Welcome page ---------- */
     .location {
         margin: 3em 5em;
     }
     
-    /* -------------- About us -------------- */
+    /* ------------- About us ----------- */
 
     .container2 {
         margin: 0 5em;
@@ -617,7 +616,7 @@ table, th, td {
         padding: 0.2em auto;
     }
    
-    /* -------------- Our Services -------------- */
+    /* ----------- Our Services ---------- */
     .container3 {
         margin: 0 5em;
         display: grid;
@@ -655,11 +654,11 @@ table, th, td {
     .container3 a {
         width: 100%;
     }
-    /* -------------- Our Vision -------------- */
+    /* ----------- Our Vision ----------- */
     .location2 {
         margin: 0 5em;
     }
-    /* -------------- Our Team -------------- */
+    /* ------------ Our Team ----------- */
     .container4 {
         margin: 0 5em;
         display: grid;
@@ -682,7 +681,7 @@ table, th, td {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    /* -------------- Contact Us-------------- */
+    /* ---------- Contact Us--------- */
 
     .container5 {
         margin: 0 5em;
@@ -708,7 +707,7 @@ table, th, td {
         grid-row: 3 / 4;
     }
 
-    /* -------------- footer -------------- */
+    /* ---------- footer -------- */
     .copy,
     .cite {
         margin: 0 5em;
