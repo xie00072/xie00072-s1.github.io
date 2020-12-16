@@ -1,0 +1,717 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----------------------------------------
+                CUSTOM CODE
+------------------------------------------*/
+
+html {
+    font-family: Open Sans, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    line-height: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a,
+a:link,
+a:visited {
+    color: #c78c06;
+}
+
+a:hover,
+a:focus {
+    color: #222;
+}
+
+.site-header,
+.site-footer {
+    background-color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    /* top left-right bottom */
+    margin: 1em 0 0.5em;
+}
+
+h1 {
+    font-size: 5.063rem;
+}
+
+h2 {
+    font-size: 3.375rem;
+}
+
+h3 {
+    font-size: 1.953rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    margin: 1em 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* --------------- header ---------------- */
+
+
+.nav-list {
+    padding: 1em;
+}
+
+.logo {
+    padding: 1em 0;
+}
+
+ul li:first-child {
+    background-color: #c78c06;
+    text-align: start;
+}
+
+.nav-list li {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 0;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #c78c06;
+}
+
+
+.search {
+   display: flex;
+}
+
+.nav-list input {
+    flex-grow: 1;
+    width: 90%;
+    height: 35px;
+    font-size: 1.2rem;
+
+}
+
+.nav-list form button {
+    color: #c78c06;
+    border: 2px #c78c06 solid;
+    background-color: #222;
+}
+
+
+
+/* ----------- Welcome Page-------------- */
+.about-container {
+    position: relative;
+    height: 650px;
+    background: url(../images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.location {
+    position: absolute;
+    top: 5%;
+    color: white;
+    padding: 1em;
+    margin: 2em 0;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.location a {
+    font-size: 1.5rem;
+    color: #222;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+    background-color: #c78c06;
+}
+
+.location i {
+    padding: 0.5em;
+}
+
+/* -------------- About Us-------------- */
+
+.about {
+    background-color: #ffe6ac;
+}
+
+.about-us {
+    width: 100%;
+    padding: 1em;
+}
+
+.para1 {
+    margin: 1em;
+}
+
+.para1 p {
+    padding: 1em 0;
+}
+
+.about h2 {
+    margin: 0;
+}
+
+/* ------------------- Our Services ------------------------ */
+
+.services h2 {
+    margin: 0;
+    padding: 0.5em 0.3em 0;
+}
+
+.services a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    background-color: #222;
+}
+
+.services i {
+    padding: 0.5em;
+}
+
+/* ------------ Digital Transformation ------------ */
+
+
+.block1 {
+    margin: 1em;
+    background-color: #ffe6ac;
+}
+
+.digital {
+    width: 100%;
+}
+
+.content1 {
+    padding: 0 1em 1em;
+}
+
+
+/* -------------- Marketing -------------- */
+
+.block2 {
+    margin: 1em;
+    background-color: #ffe6ac;
+}
+
+.marketing {
+    width: 100%;
+}
+
+.content2 {
+    padding: 0 1em 1em;
+}
+
+/* -------------- Video Production -------------- */
+
+.block3 {
+    margin: 1em;
+    background-color: #ffe6ac;
+}
+
+.video {
+    width: 100%;
+}
+
+.content3 {
+    padding: 0 1em 1em;
+}
+
+/* -------------- Web Development -------------- */
+
+.block4 {
+    margin: 1em;
+    background-color: #ffe6ac;
+}
+
+.web {
+    width: 100%;
+}
+
+.content4 {
+    padding: 0 1em 1em;
+}
+
+/* -------------- Print -------------- */
+
+.block5 {
+    margin: 1em;
+    background-color: #ffe6ac;
+}
+
+.print {
+    width: 100%;
+}
+
+.content5 {
+    padding: 0 1em 1em;
+}
+
+/* -------------- Our Vision -------------- */
+
+.vision {
+    background: url(../images/vision.jpg) no-repeat center;
+    background-size: cover;
+    height: 280px;
+}
+
+.location2 {
+    color: white;
+    margin: 2em 1em;
+}
+
+.vision h3 {
+    margin: 1em 0 0;
+    padding: 1em 0 0;
+}
+
+.vision a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+    border: 0.5px solid #ffe6ac;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* -------------- Our Team -------------- */
+.team h2 {
+    margin: 0.5em 0.3em 0.2em;
+}
+
+.container4 {
+    margin: 0 1em;
+}
+
+.john,
+.johnimage,
+.bobimage,
+.bob {
+    width: 100%;
+    background-color: #ffe6ac;
+}
+
+.team h3 {
+    margin: 0.2em 0.3em;
+}
+
+.team h4 {
+    margin: 0 0.6em;
+    border-bottom: 2px solid #c78c06;
+}
+
+.team p {
+    padding: 0.5em 1em 1em;
+}
+
+/* -------------- Contact Us -------------- */
+/* -------------- Send us a message -------------- */
+.container5 {
+    padding: 0 1em;
+}
+
+.contact h2 {
+    margin: 1em 0 0;
+}
+
+.contact h3 {
+    margin: 0 0 0.3em;
+}
+
+.form-label {
+    display: block;
+    
+}
+
+.form-control {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1.3rem;
+}
+
+.question {
+    margin: 0.5em 0;
+}
+
+.input {
+    width: 100%;
+    height: 150px;
+}
+
+.send {
+    font-size: 1.3rem;
+    margin: 1em 0;
+    color: #c78c06;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    background-color: #222;
+}
+
+/* -------------- Hours of operation -------------- */
+table {
+    width: 100%;
+   
+}
+
+th {
+    text-align: center;
+    padding: 1em;
+    background-color: #ffe6ac;
+}
+
+table, td {
+    padding: 1em;
+    text-align: start;
+}
+
+table, th, td {
+    height: 3em;
+    border: 1px solid black;
+}    
+
+
+/* -------------- Location -------------- */
+.iframe {
+    width: 100%;
+}
+
+/* -------------- footer-------------- */
+.site-footer {
+    color: #c78c06;
+}
+.copy {
+    padding: 2em 1em 0;
+    margin: 0;
+}
+.cite {
+    padding: 0.5em 1em;
+    margin: 0;
+}
+
+/*----------------------------------------
+                Desktop Style
+------------------------------------------*/
+@media screen and (min-width: 760px) {
+    html {
+        font-size: 16px;
+    }
+/* -------------- Nav bar -------------- */
+    .main-nav {
+        margin: 0 5em;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list li:first-child {
+        background: none;
+        text-align: start;
+    }
+
+
+    .nav-list li {
+        flex: 1;
+    }
+    .nav-list li:nth-child(7) {
+        flex: 2;
+    }
+
+    /* -------------- Welcome page -------------- */
+    .location {
+        margin: 3em 5em;
+    }
+    
+    /* -------------- About us -------------- */
+
+    .container2 {
+        margin: 0 5em;
+        display: flex;
+      
+    }
+    .about-us {
+        width: 50%;
+        
+    }
+    .para1 {
+        flex-grow: 1;
+    }
+    .para1 p {
+        margin: 0 auto;
+        padding: 0.2em auto;
+    }
+   
+    /* -------------- Our Services -------------- */
+    .container3 {
+        margin: 0 5em;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 5fr 4.5fr;
+    
+    }
+    .container3 h2 {
+        grid-column: 1 / span 6;
+        grid-row: 1 / span 1;
+    }
+    .block {
+        margin: 0.4em;
+    }
+    .block1 {
+        grid-column: 1 / span 3;
+        grid-row: 2 / 3;
+    }
+    .block2 {
+        grid-column: 4 / span 3;
+        grid-row: 2 / 3;
+    }
+    .block3 {
+        grid-column: 1 / span 2;
+        grid-row: 3 / 4;
+    }
+    .block4 {
+        grid-column: 3 / span 2;
+        grid-row: 3 / 4;
+    }
+    .block5 {
+        grid-column: 5 / span 2;
+        grid-row: 3 / 4;
+    }
+    .container3 a {
+        width: 100%;
+    }
+    /* -------------- Our Vision -------------- */
+    .location2 {
+        margin: 0 5em;
+    }
+    /* -------------- Our Team -------------- */
+    .container4 {
+        margin: 0 5em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 2.5fr 2.5fr;
+    }
+    .container4 h2 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / 2;
+    }
+    .johnimage {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .john {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .bob {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    /* -------------- Contact Us-------------- */
+
+    .container5 {
+        margin: 0 5em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 3fr 2fr;
+        grid-gap: 0.5em;
+    }
+    .container5 h2 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    .message {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .loc {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .hours {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
+    /* -------------- footer -------------- */
+    .copy,
+    .cite {
+        margin: 0 5em;
+    }
+
+}
